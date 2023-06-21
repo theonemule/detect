@@ -1,0 +1,18 @@
+{
+	"watchPath" : "/images/in",
+	"outputPath" : "/images/out",
+	"width" : 1920,
+	"height" : 1080,
+	"endpoint" : "http://127.0.0.1:32168/",
+	"mailInterval" : 60,
+	"mailFrom": "youremail@gmail.com",
+	"mailTo": "youremail@gmail.com",
+	"mailServer": {
+		"host": "smtp.gmail.com",
+		"port": 465,
+		"auth": {
+			"user": "youremail@gmail.com",
+			"pass": "yourpassword"
+		}
+	}
+}
