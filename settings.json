@@ -4,15 +4,17 @@
 	"width" : 1920,
 	"height" : 1080,
 	"endpoint" : "http://127.0.0.1:32168/",
-	"mailInterval" : 60,
-	"mailFrom": "youremail@gmail.com",
-	"mailTo": "youremail@gmail.com",
+	"azEndpoint" : "https://<ENDPOINT>/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=objects",
+	"azKey" : "<KEY>",
+	"mailInterval" : 5,
+	"mailFrom": "email@gmail.com",
+	"mailTo": "email@gmail.com",
 	"mailServer": {
 		"host": "smtp.gmail.com",
 		"port": 465,
 		"auth": {
-			"user": "youremail@gmail.com",
-			"pass": "yourpassword"
+			"user": "emaillogin",
+			"pass": "emailpassword"
 		}
 	}
 }
